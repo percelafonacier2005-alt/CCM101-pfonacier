@@ -34,7 +34,7 @@ lscpu | grep "Model name"
 free -h
 df -h /
 mkdir Documents Notes Reports Screenshots
-Is
+ls
 cd  Notes
 pwd
 nano about-me.md

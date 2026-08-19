@@ -21,6 +21,7 @@ During the laboratory activity, we launched an Ubuntu 24.04 environment using Ki
 
 The following Linux commands were used during the laboratory activity:
 
+```bash
 whoami
 pwd
 hostname

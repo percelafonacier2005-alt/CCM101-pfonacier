@@ -1,23 +1,23 @@
-System Information
+## System Information
 
 This document contains the basic system information gathered from the Linux environment used in the KillerCoda Ubuntu 24.04.4 LTS playground.
 
-Linux Distribution
+## Linux Distribution
 
 Ubuntu 24.04.4 LTS
 
-Kernel Version
+## Kernel Version
 
 6.8.0-136-generic
 
-CPU Information
+## CPU Information
 
 Intel Xeon E312xx (Sandy Bridge, IBRS update)
 
-Total Memory
+## Total Memory
 
 1.9 GiB
 
-Available Disk Space
+## Available Disk Space
 
 13 GiB

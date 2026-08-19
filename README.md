@@ -1,1 +1,2 @@
-# CCM101-pfonacier
+# CCM101 Cloud Computing Portfolio
+

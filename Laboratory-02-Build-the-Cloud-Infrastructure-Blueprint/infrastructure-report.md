@@ -19,18 +19,18 @@ LOGO=ubuntu-logo
 
 ## Kernel Version
 
-| Kernel Version | `6.8.0-138-generic` |
+Kernel Version  `6.8.0-138-generic` 
 
 ## CPU Model
 
 
-| CPU Model               | Intel Xeon E312xx |
-| Architecture/Generation | Sandy Bridge      |
-| Additional Information  | IBRS update       |
+ CPU Model                Intel Xeon E312xx 
+ Architecture/Generation  Sandy Bridge      
+ Additional Information   IBRS update       
 
 ## Number of CPU Cores
 
-| Number of CPU Cores | `1`    |
+Number of CPU Cores  `1`    
 
 ## Total RAM
 ```
@@ -79,10 +79,10 @@ binfmt_misc  on  /proc/sys/fs/binfmt_misc  type  binfmt_misc  (rw,nosuid,nodev,n
 
 ## Hostname
 
-| Hostname | `ubuntu` |
+Hostname  `ubuntu` 
 
 ## IP Address
 
-| IP Address 1 | `172.30.1.2` |
-| IP Address 2 | `172.17.0.1` |
+ IP Address 1 `172.30.1.2` 
+ IP Address 2  `172.17.0.1` 
 

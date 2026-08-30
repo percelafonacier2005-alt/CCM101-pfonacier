@@ -58,8 +58,6 @@ I also learned how to arrange technical results using Markdown. Working with Git
 
 Challenge 
 ```                        
-Learning the Linux commands       
- - I ran each command and compared its output with the information I needed to collect.
 Understanding the resource values 
  - I carefully reviewed the CPU, RAM, and storage results before recording them.        
  Interpreting `findmnt`            

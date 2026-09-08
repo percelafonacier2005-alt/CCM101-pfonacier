@@ -65,3 +65,5 @@ Microsoft Azure can support a variety of enterprise activities, including:
 
 <img width="1917" height="1022" alt="Screenshot 2026-09-08 192827" src="https://github.com/user-attachments/assets/e1a34b93-fb0e-4265-a929-69edfd2cfeb1" />
 
+## Sources
+https://azure.microsoft.com/en-us

@@ -108,25 +108,3 @@ The investigated Ubuntu server could be moved to a cloud environment by using a 
 | Microsoft Azure | Azure Virtual Machines   | Deploying Linux virtual machines            |
 | Google Cloud    | Compute Engine           | Running configurable Linux virtual machines |
 
-## AWS – Amazon EC2
-
-*Amazon EC2* can be used to recreate the Linux server in the AWS cloud. The virtual machine can be assigned appropriate CPU, memory, and storage resources based on the requirements of the original server.
-
-## Microsoft Azure – Azure Virtual Machines
-
-*Azure Virtual Machines* can also support the Ubuntu server because Azure provides virtual machine configurations for Linux operating systems. The organization can select a VM configuration that is close to the original server's hardware requirements.
-
-## Google Cloud – Compute Engine
-
-*Google Compute Engine* provides another option for migrating the Linux environment. It allows users to create configurable virtual machines with selected processing, memory, and storage resources.
-
-# Migration Assessment
-
-Based on the investigation, the existing server has relatively modest requirements:
-
-* *CPU:* 1 CPU at approximately 2.0 GHz
-* *Memory:* 1.9 GiB RAM
-* *Storage:* 19 GiB
-* *Operating System:* Ubuntu 24.04.4 LTS
-
-Because the workload has low resource requirements, it could be recreated using a small cloud virtual machine. However, the final cloud configuration should be determined by the actual application workload, expected number of users, storage growth, and performance requirements.

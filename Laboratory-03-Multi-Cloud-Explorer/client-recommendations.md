@@ -60,5 +60,14 @@ Google Cloud is an appropriate choice for the global e-commerce company because 
 * *Cloud CDN* – for delivering website content efficiently to users in different locations.
 * *Cloud Storage* – for storing product images, files, backups, and other data.
 
-  
+  # Multi-Cloud Decision Matrix
+
+| Business Requirement              | Recommended Platform | Justification                                                                                                                                                                              |
+| --------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Growing Startup                   | GCP                  | Google Cloud offers scalable infrastructure and managed services that can help a small company develop and expand its applications without maintaining extensive physical infrastructure.  |
+| Enterprise-Level Operations       | AWS                  | AWS provides a broad selection of enterprise services, strong security capabilities, scalability, and worldwide infrastructure for complex organizational workloads.                       |
+| Existing Microsoft Infrastructure | Azure                | Microsoft Azure is the natural choice for organizations already using Microsoft's ecosystem because it supports Windows Server, Microsoft 365, Entra ID, and other Microsoft technologies. |
+| AI and Machine Learning Projects  | GCP                  | GCP is well suited for AI-focused workloads because it provides Vertex AI, machine learning tools, data analytics services, and access to specialized computing resources.                 |
+| Kubernetes-Based Applications     | GCP                  | Google Kubernetes Engine (GKE) provides a managed Kubernetes platform that helps organizations deploy, operate, and scale containerized applications.                                      |
+| Worldwide Online Service          | AWS                  | AWS can support globally distributed applications through its Regions, scalable computing services, load balancing, and content delivery capabilities.                                     |
 

@@ -32,3 +32,5 @@ If I had to select one platform, I would choose *AWS*. My main reason is its fle
 
 ## Sources
 https://learn.microsoft.com/en-us/entra/fundamentals
+
+https://cloud.google.com/kubernetes-engine

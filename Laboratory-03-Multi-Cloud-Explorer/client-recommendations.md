@@ -71,3 +71,9 @@ Google Cloud is an appropriate choice for the global e-commerce company because 
 | Kubernetes-Based Applications     | GCP                  | Google Kubernetes Engine (GKE) provides a managed Kubernetes platform that helps organizations deploy, operate, and scale containerized applications.                                      |
 | Worldwide Online Service          | AWS                  | AWS can support globally distributed applications through its Regions, scalable computing services, load balancing, and content delivery capabilities.                                     |
 
+## Sources 
+https://docs.aws.amazon.com/
+
+https://learn.microsoft.com/en-us/azure/?product=popular
+
+https://docs.cloud.google.com/

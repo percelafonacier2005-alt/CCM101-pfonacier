@@ -29,3 +29,6 @@ For *AI and Kubernetes*, *Google Cloud* is a strong choice. Google provides a va
 ### 4. Which cloud platform would you personally choose and why?
 
 If I had to select one platform, I would choose *AWS*. My main reason is its flexibility and the large number of services available. AWS can support different types of workloads, from basic virtual machines and file storage to databases, networking, security, analytics, and AI. It would also allow me to develop a broader understanding of cloud computing by working with different cloud services on a single platform.
+
+## Sources
+https://learn.microsoft.com/en-us/entra/fundamentals

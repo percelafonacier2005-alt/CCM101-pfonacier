@@ -60,5 +60,5 @@ Google Cloud is an appropriate choice for the global e-commerce company because 
 * *Cloud CDN* – for delivering website content efficiently to users in different locations.
 * *Cloud Storage* – for storing product images, files, backups, and other data.
 
-
+  
 

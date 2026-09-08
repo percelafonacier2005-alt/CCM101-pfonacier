@@ -66,4 +66,5 @@ AWS is commonly used in enterprise environments for:
 
 <img width="1915" height="1023" alt="Screenshot 2026-09-08 190804" src="https://github.com/user-attachments/assets/f7c808b9-07c1-4a94-a992-6164d0dd4e12" />
 
-
+## Sources
+https://aws.amazon.com/about-aws/

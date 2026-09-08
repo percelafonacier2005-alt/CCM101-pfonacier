@@ -43,6 +43,9 @@ Although AWS, Azure, and GCP use different product names, each platform provides
 | Container Orchestration  | Amazon EKS  | Azure Kubernetes Service | Google Kubernetes Engine |
 
 ## Sources
+
+https://docs.aws.amazon.com/
+
 https://learn.microsoft.com/en-us/entra/fundamentals
 
 https://cloud.google.com/kubernetes-engine

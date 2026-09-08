@@ -30,6 +30,18 @@ For *AI and Kubernetes*, *Google Cloud* is a strong choice. Google provides a va
 
 If I had to select one platform, I would choose *AWS*. My main reason is its flexibility and the large number of services available. AWS can support different types of workloads, from basic virtual machines and file storage to databases, networking, security, analytics, and AI. It would also allow me to develop a broader understanding of cloud computing by working with different cloud services on a single platform.
 
+## Cloud Service Equivalents
+
+Although AWS, Azure, and GCP use different product names, each platform provides comparable services for major cloud computing functions. The following table presents the equivalent services across the three providers.
+
+| Function                 | AWS Service | Azure Service            | GCP Service              |
+| ------------------------ | ----------- | ------------------------ | ------------------------ |
+| Virtual Computing        | EC2         | Azure Virtual Machines   | Google Compute Engine    |
+| File and Object Storage  | S3          | Blob Storage             | Cloud Storage            |
+| Identity and Permissions | IAM         | Microsoft Entra ID       | Google Cloud IAM         |
+| Relational SQL Database  | Amazon RDS  | Azure SQL Database       | Cloud SQL                |
+| Container Orchestration  | Amazon EKS  | Azure Kubernetes Service | Google Kubernetes Engine |
+
 ## Sources
 https://learn.microsoft.com/en-us/entra/fundamentals
 

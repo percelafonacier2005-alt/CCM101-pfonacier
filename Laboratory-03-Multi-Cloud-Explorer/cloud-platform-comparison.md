@@ -46,6 +46,10 @@ Although AWS, Azure, and GCP use different product names, each platform provides
 
 https://docs.aws.amazon.com/
 
+https://docs.cloud.google.com/
+
+https://learn.microsoft.com/en-us/azure/?product=popular
+
 https://learn.microsoft.com/en-us/entra/fundamentals
 
 https://cloud.google.com/kubernetes-engine

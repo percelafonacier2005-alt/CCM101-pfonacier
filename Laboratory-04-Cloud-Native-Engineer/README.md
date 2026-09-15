@@ -41,11 +41,7 @@ docker rm nginx-server
 
 ## Skills Learned
 
-- I learned how to check if Docker is installed and working.
-- I learned how to download and run a Docker image.
-- I learned how to deploy an Nginx web server using Docker.
-- I learned how to check, stop, and remove a Docker container.
-- I learned how containers can be used to run applications in an isolated environment.
+I learned how to verify if Docker is working by using Docker commands. I also learned how to download the Nginx image, create and run a container, connect ports, and test the web server using curl. Lastly, I learned how to check, stop, and remove a Docker container and properly document my work in GitHub.
 
 ## Challenges Encountered
 

@@ -1,39 +1,87 @@
 # Docker Deployment
 
-## Container Lifecycle
+## Checkpoint 3 - Docker Verification
 
-### 1. List Running Containers
+### Docker Version
+
+```bash
+docker --version
+```
+
+I used this command to check if Docker was installed and to see the Docker version available in the KillerCoda environment.
+
+### Docker Information
+
+```bash
+docker info
+```
+
+I used this command to check the current Docker environment and make sure the Docker service was working.
+
+## Checkpoint 4 - Nginx Deployment
+
+### Pull Nginx
+
+```bash
+docker pull nginx
+```
+
+This command downloaded the Nginx image that I needed for the web server.
+
+### Run Nginx
+
+```bash
+docker run -d --name nginx-server -p 8080:80 nginx
+```
+
+This command created and started the Nginx container in the background and connected port 8080 of the host to port 80 of the container.
+
+### Test Nginx
+
+```bash
+curl http://localhost:8080
+```
+
+I used this command to check if the Nginx web server was running, and it returned the Nginx welcome page HTML.
+
+## Checkpoint 5 - Container Lifecycle
+
+### List Running Containers
 
 ```bash
 docker ps
 ```
 
-This command lists all currently running Docker containers.
+This command showed me the Nginx container while it was running.
 
-### 2. Stop the Running Container
+### Stop the Container
 
 ```bash
 docker stop nginx-server
 ```
 
-This command stops the running Nginx container named `nginx-server`.
+This command stopped the running Nginx container.
 
-### 3. Verify the Container is Stopped
+### Verify the Container Is Stopped
 
 ```bash
 docker ps
 ```
 
-This command verifies that the Nginx container is no longer running.
+The Nginx container was no longer displayed because it was already stopped.
 
-### 4. Remove the Container Completely
+### Remove the Container
 
 ```bash
 docker rm nginx-server
 ```
 
-This command removes the stopped Nginx container completely from Docker.
+This command completely removed the stopped Nginx container.
 
-## Summary
+### Verify the Removal
 
-The Docker container lifecycle allows a cloud-native engineer to easily view, stop, verify, and remove containers. These commands make container management simple and efficient.
+```bash
+docker ps -a
+```
+
+I used this command to check all containers and verify that the Nginx container was removed.

@@ -30,23 +30,3 @@ The `-e` flags in the Docker command were used to set environment variables for 
 - `MINIO_ROOT_PASSWORD=CloudNova2026!` sets the password for the MinIO administrator account.
 
 These environment variables provide the login credentials used to access the MinIO Web Console.
-
-## Verification
-
-The command below was used to verify that the MinIO container was running:
-
-```bash
-docker ps
-```
-
-The `minio-server` container was successfully running and exposed ports 9000 and 9001.
-
-## Screenshot Evidence
-
-The deployment screenshot is saved as:
-
-`minio-deployed.png`
-
-The bucket and uploaded file screenshot is saved as:
-
-`minio-bucket-upload.png`

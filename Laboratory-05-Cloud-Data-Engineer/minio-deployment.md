@@ -1,4 +1,4 @@
-# MinIO Deployment
+# MinIO Deployment Documentation 
 
 ## Objective
 

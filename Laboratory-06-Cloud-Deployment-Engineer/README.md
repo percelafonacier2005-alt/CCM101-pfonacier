@@ -28,6 +28,4 @@ docker-compose down
 
 ## Skills Learned
 
-## Skills Learned
-
 Through this laboratory, I learned how to understand and apply two-tier architecture using Nextcloud and MariaDB. I also learned how to create and edit YAML configuration files, deploy multiple containers using Docker Compose, and connect an application container to a database container.I learned about container networking, accessing a web application through a mapped port, managing containers, and documenting a cloud deployment process using Markdown.

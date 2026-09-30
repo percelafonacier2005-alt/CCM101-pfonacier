@@ -20,6 +20,7 @@ This laboratory focused on deploying a private cloud storage system using Nextcl
 mkdir nextcloud-deployment
 cd nextcloud-deployment
 nano docker-compose.yml
+cat docker-compose.yml
 docker-compose up -d
 docker-compose ps
 docker-compose down

@@ -16,7 +16,7 @@ This laboratory focused on deploying a private cloud storage system using Nextcl
 
 ## Commands Executed
 
-##bash
+'''bash
 mkdir nextcloud-deployment
 cd nextcloud-deployment
 nano docker-compose.yml

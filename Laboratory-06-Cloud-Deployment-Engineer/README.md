@@ -28,5 +28,6 @@ docker-compose down
 
 ## Skills Learned
 
-Through this laboratory, I learned how to use Docker Compose to deploy multiple containers as one application. I learned how the Nextcloud application connects to MariaDB using the `MYSQL_HOST=database` setting. I also gained experience with YAML configuration, container networking, Linux commands, and accessing a cloud application through a web browser.
+## Skills Learned
 
+Through this laboratory, I learned how to understand and apply two-tier architecture using Nextcloud and MariaDB. I also learned how to create and edit YAML configuration files, deploy multiple containers using Docker Compose, and connect an application container to a database container.I learned about container networking, accessing a web application through a mapped port, managing containers, and documenting a cloud deployment process using Markdown.

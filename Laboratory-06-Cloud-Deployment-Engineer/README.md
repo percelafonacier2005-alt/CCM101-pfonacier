@@ -16,7 +16,7 @@ This laboratory focused on deploying a private cloud storage system using Nextcl
 
 ## Commands Executed
 
-```bash
+##bash
 mkdir nextcloud-deployment
 cd nextcloud-deployment
 nano docker-compose.yml
@@ -24,6 +24,5 @@ docker-compose up -d
 docker-compose ps
 docker-compose down
 
-Skills Learned
-
+## Skills Learned
 Through this laboratory, I learned how to use Docker Compose to deploy multiple containers as one application. I learned how the Nextcloud application connects to MariaDB using the MYSQL_HOST=database setting. I also gained experience with YAML configuration, container networking, Linux commands, and accessing a cloud application through a web browser.

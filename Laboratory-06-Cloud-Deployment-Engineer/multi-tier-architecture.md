@@ -1,3 +1,5 @@
+##Multi-Tier Architecture
+
 # Two-Tier Architecture
 
 A Two-Tier Architecture is a system that has two main parts: the Web/Application Tier and the Database Tier. Each part has a different job and works together to provide the application to users.

@@ -16,6 +16,7 @@ This laboratory activity focuses on securing a web application using the UFW (Un
 
 ## Commands Executed 
 
+```bash
 docker --version
 docker run -d --name secure-web-app -p 8080:80 nginx
 docker ps
@@ -28,3 +29,4 @@ sudo ufw status verbose
 sudo ufw allow 8080/tcp
 sudo ufw status numbered
 curl -I --max-time 5 http://localhost:8080
+```

@@ -30,3 +30,7 @@ sudo ufw allow 8080/tcp
 sudo ufw status numbered
 curl -I --max-time 5 http://localhost:8080
 ```
+
+## Skills Learned
+
+This laboratory helped me learn how to run a web server using Docker, test the website using `curl`, and set up firewall rules using UFW. I also learned how to block unwanted connections, allow important ports like SSH and 8080, check firewall settings, and keep the security settings documented.

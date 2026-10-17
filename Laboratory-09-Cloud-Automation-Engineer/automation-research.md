@@ -1,4 +1,4 @@
-# Checkpoint 2 – Research: The Language of Automation
+#  The Language of Automation
 
 ## 1. Bash Script
 

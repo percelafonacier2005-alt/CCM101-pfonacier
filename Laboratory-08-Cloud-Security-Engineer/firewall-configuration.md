@@ -21,21 +21,6 @@ sudo ufw default allow outgoing
 
 The first command blocks incoming traffic by default, while the second allows outgoing traffic from the server.
 
-## Enable the Firewall
-
-Command used:
-
-```bash
-sudo ufw enable
-```
-
-To verify the firewall configuration, I used:
-
-```bash
-sudo ufw status verbose
-```
-
-The output confirmed that the firewall was active, incoming traffic was denied by default, and outgoing traffic was allowed.
 
 ## Allow Port 8080
 

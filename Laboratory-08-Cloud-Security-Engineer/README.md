@@ -1,4 +1,4 @@
-# Laboratory 08 – The Cloud Security Engineer
+# Laboratory 08 – Cloud Security Engineer
 
 ## Mission Overview
 

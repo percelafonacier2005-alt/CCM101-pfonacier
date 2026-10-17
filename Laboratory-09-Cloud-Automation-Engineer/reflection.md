@@ -1,4 +1,4 @@
-# Laboratory 09 Reflection
+# Mission Reflection
 
 In this laboratory activity, I learned that automation is important when managing hundreds of cloud servers. Instead of doing the same tasks manually, we can use scripts to do the work faster and easier. Automation also helps reduce human errors and saves time. For example, my Bash script can create a backup of important files automatically.
 

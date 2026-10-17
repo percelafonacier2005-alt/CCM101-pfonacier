@@ -1,6 +1,7 @@
 ## Backup Script Guide
 
-## Backup Script Code
+
+## Full bash Script
 
 The following Bash script creates a compressed backup of the `app-data` directory.
 

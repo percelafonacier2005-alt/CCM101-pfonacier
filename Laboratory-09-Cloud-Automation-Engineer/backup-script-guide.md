@@ -1,6 +1,6 @@
-# Backup Script Guide
+## Backup Script Guide
 
-## 1. Backup Script Code
+## Backup Script Code
 
 The following Bash script creates a compressed backup of the `app-data` directory.
 
@@ -22,11 +22,11 @@ tar -czf $BACKUP_DIR/backup_$TIMESTAMP.tar.gz $SOURCE_DIR
 echo "Backup completed successfully at $TIMESTAMP!"
 ```
 
-## 2. File Permissions
+## File Permissions
 
 The command `chmod +x backup.sh` adds execute permission to the script. This allows Linux to run the script as a program using `./backup.sh`.
 
-## 3. Cron Job Configuration
+## Cron Job Configuration
 
 The Cron expression used is:
 
@@ -46,7 +46,7 @@ This schedules the backup script to run every day at 2:00 AM, based on the syste
 | Month | `*` | Every month |
 | Day of Week | `*` | Every day of the week |
 
-## 4. Backup Verification
+## Backup Verification
 
 The command `./backup.sh` runs the backup script. The command `ls -l backups/` checks the generated backup file, while `tar -tzf backups/*.tar.gz` lists the contents of the compressed archive.
 

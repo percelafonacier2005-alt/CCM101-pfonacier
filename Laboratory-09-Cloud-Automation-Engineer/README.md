@@ -28,9 +28,4 @@ This laboratory activity focuses on automating application data backups using a 
 
 ## Skills Learned
 
-- Writing and running Bash scripts.
-- Creating compressed backups with `tar`.
-- Managing file permissions with `chmod`.
-- Scheduling automated tasks with Cron.
-- Verifying backup files and documenting technical procedures in Markdown.
-
+In this activity, I learned how to make and run a Bash script to back up files automatically. I created a folder with a sample text file and used the `tar` command to make a compressed backup. I also learned how to use `chmod +x` to allow the script to run and Cron to schedule the backup every day at 2:00 AM. Lastly, I checked if the backup file was created and if it contained the correct files. This activity helped me understand how automation makes work easier and helps protect important data.

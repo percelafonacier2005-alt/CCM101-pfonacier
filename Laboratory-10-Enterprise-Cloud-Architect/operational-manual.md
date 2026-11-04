@@ -60,17 +60,22 @@ This address depends on VirtualBox forwarding host port 8082 to guest port 8082.
 ## 6. Monitor Containers and Logs
 
 Check container status:
-
+``` bash
 cd ~/cloudnova-stack
 sudo docker compose ps
+````
 
 View recent WordPress logs:
 
+``` bash
 sudo docker compose logs --tail=50 wordpress
+```
 
 View recent MariaDB logs:
 
+``` bash
 sudo docker compose logs --tail=50 database
+```
 
 Review the output for startup errors, database connection failures, or other problems.
 
@@ -78,16 +83,21 @@ Review the output for startup errors, database connection failures, or other pro
 
 Restart both containers:
 
+``` bash
 sudo docker compose restart
+```
 
 Stop the application containers:
 
+``` bash
 sudo docker compose down
+```
 
 Start the application again:
 
+``` bash
 sudo docker compose up -d
-
+```
 Do not use docker compose down -v during routine maintenance. Removing the named volume can delete the database data.
 
 ## 8. Firewall and Network Security

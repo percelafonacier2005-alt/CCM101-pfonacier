@@ -32,19 +32,21 @@ Before deployment, ensure that:
 
 Open the Ubuntu Server terminal and enter the project directory:
 
-''' bash
+``` bash
 cd ~/cloudnova-stack
-'''
-
+```
 
 Start the application:
 
+``` bash
 sudo docker compose up -d
+```
 
 Check the container status:
 
+``` bash
 sudo docker compose ps
-
+```
 Confirm that WordPress and MariaDB are running.
 
 ## 5. Access the Website

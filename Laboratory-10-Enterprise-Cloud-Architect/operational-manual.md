@@ -32,7 +32,10 @@ Before deployment, ensure that:
 
 Open the Ubuntu Server terminal and enter the project directory:
 
+''' bash
 cd ~/cloudnova-stack
+'''
+
 
 Start the application:
 

@@ -104,7 +104,9 @@ Do not use docker compose down -v during routine maintenance. Removing the named
 
 Check UFW status:
 
+``` bash
 sudo ufw status verbose
+````
 
 The firewall should be active with incoming connections denied by default. Allow only necessary services, including SSH if remote administration is required, and the web ports required by the actual deployment.
 
@@ -118,11 +120,15 @@ The database uses a Docker named volume mounted at /var/lib/mysql. This keeps da
 
 List Docker volumes:
 
+``` bash
 sudo docker volume ls
+```
 
 Inspect the database container's mounts:
 
+``` bash
 sudo docker inspect cloudnova-database
+```
 
 Check the Mounts section to verify that the database directory is backed by the expected volume.
 
@@ -134,15 +140,21 @@ Persistent storage protects against container replacement, but it does not repla
 
 The backup script should create a timestamped, compressed SQL backup in:
 
+``` bash
 /home/cloudadmin/cloudnova-backups
+```
 
 Check the backup directory:
 
+``` bash
 sudo ls -lh /home/cloudadmin/cloudnova-backups
+```
 
 Verify that a backup file exists and is not empty. Test its gzip integrity:
 
+``` bash
 gzip -t /path/to/backup.sql.gz
+```
 
 Replace the example path with the actual backup filename.
 
@@ -152,14 +164,17 @@ The backup script requires database credentials and Docker access. Supply creden
 
 Check the root user's cron schedule:
 
+``` bash
 sudo crontab -l
+```
 
 The configured schedule is intended to run the backup every day at 2:00 AM.
 
 Check the backup log, if configured:
 
+``` bash
 sudo tail -n 50 /home/cloudadmin/cloudnova-backups/backup.log
-
+```
 Confirm that the cron job can access the required credentials and Docker commands. Cron does not automatically inherit environment variables from an interactive terminal, so credentials must be made available through an appropriately protected configuration.
 
 ## 12. Recovery Procedure
